@@ -1,0 +1,310 @@
+.back-ground-icon {
+    position: absolute;
+    top: 0.13rem;
+    left: 0;
+    width: 120rem;
+    height: 63rem;
+    object-fit: cover;
+  }
+  .access-curated-courses {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 125%;
+    font-weight: 600;
+  }
+  .access-curated-courses-worth-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 125%;
+    font-weight: 600;
+    z-index: 0;
+  }
+  .frame-child {
+    position: absolute;
+    margin: 0 !important;
+    top: 2.31rem;
+    left: 3.38rem;
+    background-color: red;
+    width: 11.94rem;
+    height: 0.5rem;
+    z-index: 1;
+  }
+  .at-just {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 125%;
+    font-weight: 600;
+  }
+  .at-just-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 2;
+    font-size: var(--font-size-37xl);
+    font-family: var(--font-raleway);
+  }
+  .wrapper {
+    justify-content: center;
+    z-index: 3;
+    color: var(--color-dodgerblue);
+  }
+  .parent,
+  .per-year-wrapper,
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .per-year-wrapper {
+    justify-content: center;
+    z-index: 4;
+    font-size: var(--font-size-37xl);
+    font-family: var(--font-raleway);
+  }
+  .parent {
+    align-self: stretch;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-base);
+    font-size: var(--font-size-45xl);
+    font-family: var(--font-roboto);
+  }
+  .header {
+    height: 9.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: var(--font-size-37xl);
+    font-family: var(--font-raleway);
+  }
+  .icon-child {
+    position: relative;
+    width: 3.72rem;
+    height: 3.8rem;
+  }
+  .icon {
+    width: 4.25rem;
+    height: 4.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .span,
+  .span1 {
+    font-weight: 600;
+  }
+  .span1 {
+    font-family: var(--font-roboto);
+  }
+  .job-relevant-courses {
+    color: var(--color-white);
+  }
+  .text {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 100%;
+  }
+  .pointer-1,
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .pointer-1 {
+    align-self: stretch;
+    height: 4rem;
+    justify-content: flex-start;
+    gap: var(--gap-45xl);
+    color: var(--color-dodgerblue);
+  }
+  .icon-item {
+    position: relative;
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  .icon1 {
+    width: 4.25rem;
+    height: 4.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .vector-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.67rem;
+    height: 3.66rem;
+  }
+  .live {
+    position: absolute;
+    top: 1.58rem;
+    left: 0.59rem;
+    letter-spacing: 0.03em;
+    line-height: 100%;
+    font-weight: 800;
+  }
+  .vector-parent {
+    position: relative;
+    width: 3.67rem;
+    height: 3.66rem;
+  }
+  .icon2 {
+    width: 4.25rem;
+    height: 4.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .pointer-3,
+  .text-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .text-container2 {
+    justify-content: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-dodgerblue);
+    font-family: var(--font-roboto);
+  }
+  .pointer-3 {
+    align-self: stretch;
+    height: 4rem;
+    justify-content: flex-start;
+    gap: var(--gap-45xl);
+    font-size: 1.38rem;
+    font-family: var(--font-nunito);
+  }
+  .icon-inner {
+    position: relative;
+    width: 3.87rem;
+    height: 2.8rem;
+  }
+  .icon3 {
+    width: 4.25rem;
+    height: 4.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1.13rem var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .span3 {
+    font-weight: 600;
+    color: var(--color-dodgerblue);
+  }
+  .pointer-4,
+  .text-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pointer-4 {
+    align-self: stretch;
+    height: 4rem;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-45xl);
+  }
+  .vector-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  .ads {
+    position: absolute;
+    top: 1.3rem;
+    left: 0.55rem;
+    letter-spacing: 0.03em;
+    line-height: 100%;
+    font-weight: 900;
+  }
+  .group-child {
+    position: absolute;
+    top: 0.42rem;
+    left: 2.9rem;
+    border-radius: 16px;
+    background-color: var(--color-white);
+    width: 0.25rem;
+    height: 3.5rem;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+  .main-lockup,
+  .pointer-5 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .pointer-5 {
+    align-self: stretch;
+    height: 4rem;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-45xl);
+    font-size: 1.13rem;
+    font-family: var(--font-nunito);
+  }
+  .main-lockup {
+    position: absolute;
+    top: 4.5rem;
+    left: 9rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  .content-container {
+    position: relative;
+    background-color: #172746;
+    width: 120rem;
+    height: 63rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .coding-assignment {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  
